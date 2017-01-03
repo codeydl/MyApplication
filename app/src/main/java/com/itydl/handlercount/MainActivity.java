@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         btndemodecrease.setEnabled(true);
                         btndemopause.setEnabled(false);
 
+
                         //移除消息
                         mHandler.removeMessages(MES_WHAT_INCREASE);
                         Toast.makeText(getApplicationContext(),"已经最大值",Toast.LENGTH_SHORT).show();
